@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GrupoNorteModelStoreContainer" CdmEntityContainer="GrupoNorteEntities">
+    <EntitySetMapping Name="Legajos">
+      <EntityTypeMapping TypeName="GrupoNorteModel.Legajo">
+        <MappingFragment StoreEntitySet="Legajos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Caja" ColumnName="Caja" />
+          <ScalarProperty Name="NroLegajo" ColumnName="NroLegajo" />
+          <ScalarProperty Name="ApellidoyNombre" ColumnName="ApellidoyNombre" />
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaBaja" ColumnName="FechaBaja" />
+          <ScalarProperty Name="IdCarpetas" ColumnName="IdCarpetas" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="FechaCarga" ColumnName="FechaCarga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Carpetas">
+      <EntityTypeMapping TypeName="GrupoNorteModel.Carpeta">
+        <MappingFragment StoreEntitySet="Carpetas">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
